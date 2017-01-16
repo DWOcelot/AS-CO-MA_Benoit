@@ -1,0 +1,85 @@
+/*////////////////////////////////////////*/
+/*STYLE BLOCKQUOTE SUR HOME*/
+/*////////////////////////////////////////*/
+.presentSite {
+  max-width: 940px;
+  margin: 2em auto;
+  border: 2px solid #6aa33b;
+  border-radius: 5px;
+  background-color: rgba(106, 163, 59, 0.5);
+  padding: 20px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+/*////////////////////////////////////////*/
+/*STYLE CAROUSEL SUR HOME*/
+/*////////////////////////////////////////*/
+.carousel {
+  box-shadow: 5px 5px 5px #888888;
+}
+.carousel-caption button {
+  height: 40px;
+  font-size: 25px;
+  display: inline;
+  padding: 0 15px;
+  border-radius: 3px;
+  background-color: #5e982e;
+  box-shadow: 5px 5px 5px rgba(4, 4, 4, 0.53)
+}
+.carousel-caption a {
+  color: white;
+}
+.carousel-caption button:active {
+  transform: translateY(4px);
+}
+/*Animation titre sur image*/
+.carousel-caption {
+  transition: all .3s ease;
+  opacity: 0;
+}
+.carousel:hover .carousel-caption {
+  transform: scale(1.1);
+  margin-bottom: 30px;
+  opacity: 1;
+}
+.carousel-caption a:hover {
+  text-decoration: none;
+  color: white;
+}
+/*Animation img*/
+.carousel img{
+  transition: all .3s ease;
+}
+.carousel:hover img {
+  transform: scale(1.1);
+  opacity: 0.7;
+  -webkit-filter: blur(2px);
+}
+
+/*////////////////////////////////////////*/
+/*STYLE CGU via HOME*/
+/*////////////////////////////////////////*/
+.cgu {
+  position: relative;
+  border: 2px solid #6aa33b;
+  border-radius: 5px;
+  background-color: rgba(106, 163, 59, 0.5);
+  padding: 20px;
+  box-shadow: 5px 5px 5px #888888;
+}
+.cguHidden {
+  display: none;
+}
+.cgu h2 {
+  font-weight: bolder;
+  margin-bottom: 1em;
+}
+.cgu h3 {
+  font-style: italic;
+}
+#toggleCGU {
+  position: relative;
+  left: 45%;
+  bottom: 45px;
+  border-radius: 50%;
+}

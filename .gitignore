@@ -1,0 +1,10 @@
+/vendor/
+app/config.php
+/phpDocumentor.phar
+*.log
+*.phar
+*.lock
+*.json
+public/assets/img/assoc/
+public/assets/img/mairie/
+public/assets/img/users/
